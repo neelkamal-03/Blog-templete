@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Simple Survey Form By NEELKAMAL PATTA</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div>
+    <h3 style="text-align: center;">ASSIGNMENT NO.1</h3>
+  </div>
+</header>
+<!-- ------------------------------------------------ ------------------------------------------>
+<main>
+  <section class="form-wrapper">
+    <form>
+      <h2>Survey Form</h2>
+      <p class="subtitle">User stories survey form</p>
+
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Enter Name" required autocomplete="name" />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="Enter E-mail" required autocomplete="email" />
+      </div>
+
+      <div class="form-group">
+        <label for="experience">Work Experience (years)</label>
+        <input id="experience" name="experience" type="number" min="0" max="100" placeholder="Enter Number" required />
+      </div>
+
+      <div class="form-group">
+        <label for="comfortable">Are you comfortable in investing in real estate or platform without first investigating properly?</label>
+        <select id="comfortable" name="comfortable" required>
+          <option value="" disabled selected>Select an option</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="suggestion">Suggestions to build trusted platform</label>
+        <input id="suggestion" name="suggestion" type="text" placeholder="Your suggestion here" />
+      </div>
+
+      <fieldset class="checkbox-group" aria-labelledby="invest-label">
+        <legend id="invest-label">You are ready to invest in:</legend>
+        <label><input type="checkbox" name="invest" value="Real Estate" /> Real Estate</label>
+        <label><input type="checkbox" name="invest" value="Mutual Funds" /> Mutual Funds</label>
+        <label><input type="checkbox" name="invest" value="Crypto Currency" /> Crypto Currency</label>
+        <label><input type="checkbox" name="invest" value="Stocks & Bonds" /> Stocks & Bonds</label>
+      </fieldset>
+
+      <fieldset class="radio-group" aria-labelledby="contact-label" role="radiogroup">
+        <legend id="contact-label">Are you ready for further contact</legend>
+        <label><input type="radio" name="further_contact" value="Yes" required /> Yes</label>
+        <label><input type="radio" name="further_contact" value="No" /> No</label>
+      </fieldset>
+
+      <input type="submit" value="Submit" aria-label="Submit survey form"/>
+
+    </form>
+  </section>
+</main>
+</body>
+</html>

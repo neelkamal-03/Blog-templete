@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+header{
+  border: 1px solid red;
+  font-weight: 900;
+  font-size: 1.2rem;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* --------------------------------------------- */
+main{
+    border: 1px solid red;
+    max-width: 1500px;
+    display: flex;
+    gap: 3rem;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    flex-wrap: wrap;
+}
+ .form-wrapper {
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #5b6e6e;
+    padding: 1.5rem 4.5rem 1.5rem 4.5rem;
+    border-radius: 6px;
+    flex-shrink: 0;
+    width: 500px;
+  }
+   form {
+    border: 1px solid red;
+    background-color: #fff;
+    padding: 1.8rem 1.6rem 2rem 1.6rem;
+    border-radius: 4px;
+    box-shadow: #5b6e6e;
+  }
+   form h2 {
+    border: 1px solid red;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 0.4rem;
+    text-align: center;
+  }
+    form p.subtitle {
+    border: 1px solid red;
+    text-align: center;
+    font-size: 0.85rem;
+    margin-top: 0;
+    margin-bottom: 1.2rem;
+    font-style: italic;
+    color: #374151;
+  }
+  /* Form group */
+  .form-group {
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+    color: #111827;
+  }
+
+  /* Text input and select styling */
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select,
+  input[type="submit"] {
+    width: 100%;
+    font-size: 0.95rem;
+    padding: 7px 10px;
+    border-radius: 3px;
+    border: 1.5px solid #d1d5db;
+    transition: border-color 0.2s ease-in-out;
+    font-family: inherit;
+  }
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="number"]:focus,
+  select:focus {
+    outline: none;
+    border-color: #f97316;
+    box-shadow: 0 0 4px 1px #fb923c88;
+  }
+
+  /* Radio, checkboxes container */
+  .checkbox-group,
+  .radio-group {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+  }
+
+  /* Inline label for checkbox and radio */
+  .checkbox-group label,
+  .radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-weight: 500;
+    cursor: pointer;
+    user-select: none;
+  }
+  /* ----------------------------------------------------------------------------- */
+  input[type="checkbox"],
+  input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin: 0;
+  }
+/* --------------------------------------------------------------------------------- */
+  /* Submit button */
+    input[type="submit"] {
+    background-color: #6d5b2f;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 0.8rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  input[type="submit"]:hover,
+  input[type="submit"]:focus {
+    background-color: #8f684d;
+  }
