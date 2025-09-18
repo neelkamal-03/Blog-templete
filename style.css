@@ -9,7 +9,7 @@ body{
     padding: 0;
 }
 header{
-  border: 1px solid red;
+/*   border: 1px solid red; */
   font-weight: 900;
   font-size: 1.2rem;
   text-align: center;
@@ -18,7 +18,7 @@ header{
 }
 /* --------------------------------------------- */
 main{
-    border: 1px solid red;
+/*     border: 1px solid red; */
     max-width: 1500px;
     display: flex;
     gap: 3rem;
@@ -40,7 +40,7 @@ main{
     width: 500px;
   }
    form {
-    border: 1px solid red;
+/*     border: 1px solid red; */
     background-color: #fff;
     padding: 1.8rem 1.6rem 2rem 1.6rem;
     border-radius: 4px;
@@ -55,7 +55,7 @@ main{
     text-align: center;
   }
     form p.subtitle {
-    border: 1px solid red;
+/*     border: 1px solid red; */
     text-align: center;
     font-size: 0.85rem;
     margin-top: 0;
@@ -138,4 +138,5 @@ main{
   input[type="submit"]:hover,
   input[type="submit"]:focus {
     background-color: #8f684d;
+
   }
